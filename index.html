@@ -1,78 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="dist/css/main.css" />
+		<title>Shoes</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="dist/css/main.css" />
-    <title>Shoes</title>
-</head>
+	<body>
+		<header class="hero">
+			<div class="container spacing">
+				<h1 class="primary-title">Amazing shoes at an amazing price</h1>
+				<p>
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim id
+					iusto commodi, temporibus sint itaque voluptas repellat soluta a vero
+					porro neque velit ea dolorum ad! Minima, quibusdam! Officiis, maxime!
+				</p>
+				<a href="" class="btn"> See what we have </a>
+			</div>
+		</header>
 
-<body>
-    <header class="hero">
-        <div class="container spacing">
-            <h1 class="primary-title">Amazing shoes at an amazing price</h1>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim id
-                iusto commodi, temporibus sint itaque voluptas repellat soluta a vero
-                porro neque velit ea dolorum ad! Minima, quibusdam! Officiis, maxime!
-            </p>
-            <a href="" class="btn"> See what we have </a>
-        </div>
-    </header>
+		<main>
+			<section class="featured">
+				<div class="container">
+					<h2 class="section-title">Featured Products</h2>
+					<div class="split">
+						<a href="#" class="featured__item">
+							<img src="./img/shoe-4.png" alt="" class="featured__img" />
+							<p class="featured__details">
+								<span class="price">Ksh 2999</span>
+							</p>
+						</a>
+						<a href="#" class="featured__item">
+							<img src="./img/shoe-5.png" alt="" class="featured__img" />
+							<p class="featured__details">
+								<span class="price">Ksh 2999</span>
+							</p>
+						</a>
+						<a href="#" class="featured__item">
+							<img src="./img/shoe-6.png" alt="" class="featured__img" />
+							<p class="featured__details">
+								<span class="price">Ksh 2999</span>
+							</p>
+						</a>
+					</div>
+				</div>
+			</section>
 
-    <main>
-        <section class="featured">
-            <div class="container">
-                <h2 class="section-title">Featured Products</h2>
-                <div class="split">
-                    <a href="#" class="featured__item">
-                        <img src="./img/shoe-4.png" alt="" class="featured__img" />
-                        <p class="featured__details"><span class="price">Ksh 2999</span></p>
-                    </a>
-                    <a href="#" class="featured__item">
-                        <img src="./img/shoe-5.png" alt="" class="featured__img" />
-                        <p class="featured__details"><span class="price">Ksh 2999</span></p>
-                    </a>
-                    <a href="#" class="featured__item">
-                        <img src="./img/shoe-6.png" alt="" class="featured__img" />
-                        <p class="featured__details"><span class="price">Ksh 2999</span></p>
-                    </a>
-                </div>
-            </div>
-        </section>
+			<section class="our-products">
+				<div class="container">
+					<h2 class="section-title">Our Products</h2>
 
-        <section class="our-products">
-            <div class="container">
-                <h2 class="section-title">Our Products</h2>
+					<article class="product spacing shoe-red">
+						<img src="./img/shoe-1.png" alt="" class="product__image" />
+						<h3 class="product__title">Supra</h3>
+						<p class="product__description">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+							eveniet aut modi. Illum, tenetur sint!
+						</p>
+						<a href="" class="btn">Buy Now</a>
+					</article>
 
-                <article class="product spacing shoe-red">
-                    <img src="./img/shoe-1.png" alt="" class="product__image" />
-                    <h3 class="product__title">Supra</h3>
-                    <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                        eveniet aut modi. Illum, tenetur sint!</p>
-                    <a href="" class="btn">Buy Now</a>
-                </article>
+					<article class="product spacing shoe-left shoe-white">
+						<img src="./img/shoe-2.png" alt="" class="product__image" />
+						<h3 class="product__title">Vans</h3>
+						<p class="product__description">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+							natus iste laborum veritatis quo!
+						</p>
+						<a href="" class="btn">Buy Now</a>
+					</article>
 
-                <article class="product spacing shoe-white">
-                    <img src="./img/shoe-2.png" alt="" class="product__image" />
-                    <h3 class="product__title">Vans</h3>
-                    <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-                        natus iste laborum veritatis quo!</p>
-                    <a href="" class="btn">Buy Now</a>
-                </article>
-
-                <article class="product spacing shoe-blue">
-                    <img src="./img/shoe-3.png" alt="" class="product__image" />
-                    <h3 class="product__title">Ladders </h3>
-                    <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-                        maiores accusantium voluptas distinctio. Rerum magnam ipsum commodi? Harum pariatur qui facere
-                        quibusdam praesentium quaerat assumenda beatae!</p>
-                    <a href="" class="btn">Buy Now</a>
-                </article>
-            </div>
-        </section>
-    </main>
-</body>
-
+					<article class="product spacing shoe-blue">
+						<img src="./img/shoe-3.png" alt="" class="product__image" />
+						<h3 class="product__title">Ladders</h3>
+						<p class="product__description">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+							maiores accusantium voluptas distinctio. Rerum magnam ipsum
+							commodi? Harum pariatur qui facere quibusdam praesentium quaerat
+							assumenda beatae!
+						</p>
+						<a href="" class="btn">Buy Now</a>
+					</article>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
